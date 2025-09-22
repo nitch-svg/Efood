@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9faff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: #363853;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+li :hover {
+  color: #ff7a50;
+}
+
+.btn_signup {
+  background-color: #ff7a50;
+  width: 120px;
+  height: 50.408084869384766px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.btn_signup:hover {
+  background-color: #363853;
+  color: #ff7a50;
+}
+
+.motocycle_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.motocycle_info {
+  width: 530px;
+  height: 156px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.fastfood {
+  color: #ff7a50;
+}
+
+.motocycle_h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 66px;
+  color: #363853;
+}
+
+.motocycle_text {
+  margin-top: 20px;
+  margin-bottom: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #363853;
+  transform: matrix(150.4080810546875px);
+}
+
+.btn_explorefood {
+  width: 163px;
+  height: 50.4080810546875px;
+  border-radius: 5px;
+  background-color: #ff7a50;
+  color: #ffffff;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.btn_explorefood:hover {
+  background-color: #363853;
+  color: #ff7a50;
+}
+
+.delivery_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delivery_info {
+  width: 449px;
+  height: 497px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 30px;
+}
+
+.span_goodfood {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 50px;
+  color: #ff7a50;
+}
+
+.goodfood_h1 {
+  font-weight: 600;
+  font-size: 38px;
+  color: #363853;
+}
+
+.delivery_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 89px;
+  margin-bottom: 80px;
+  color: #363853;
+}
+
+.btn_seemore {
+  width: 176px;
+  height: 58px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 1px;
+  border-bottom-left-radius: 30px;
+  border: none;
+  background-color: #ff7a50;
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn_seemore:hover {
+  background-color: #363853;
+  color: #ff7a50;
+}
+
+.text_orange_span {
+  color: #ff7a50;
+}
+
+.topfood {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 30px;
+  color: #363853;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.card {
+  width: 361px;
+  height: 417px;
+  top: 1809px;
+  left: 156px;
+  background: #ffffff;
+}
+
+.menu_nomlar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #363853;
+}
+
+.time_button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 7px;
+}
+
+.pmam {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #363853;
+}
+
+.timer_img {
+  width: 25px;
+  height: 25px;
+}
+
+.strelka_btn {
+  width: 79px;
+  height: 33px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background: #ff7a50;
+  border: none;
+  margin-left: 28px;
+}
+
+.strelka_btn :hover {
+  background-color: #363853;
+  color: #ff7a50;
+  cursor: pointer;
+}
+
+.h1_download {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #363853;
+}
+
+.download_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.download_info {
+  width: 538px;
+  height: 174px;
+  top: 2507px;
+  left: 176px;
+  margin-top: 89px;
+}
+
+.download_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  color: #363853;
+}
+
+.subscribe_section {
+  width: 1170px;
+  height: 312px;
+  border-width: 1px;
+  background-color: #ff7a50;
+  border-radius: 15px;
+  padding: 59px 0;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+.h1_subscribe {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.input_email {
+  width: 838.5px;
+  height: 78px;
+  top: 3156.45px;
+  left: 303.75px;
+  border-width: 1px;
+}
+
+.subscribe-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 40px;
+  padding: 5px;
+  width: 500px;
+  margin: 90px auto;
+  width: 838.5px;
+  height: 78px;
+}
+
+.subscribe-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 40px 0 0 40px;
+  font-size: 16px;
+  color: #333;
+}
+
+.subscribe-box button {
+  border: none;
+  background: #ff7a50;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #fff; /* тонкая белая обводка */
+}
+
+.subscribe-box button:hover {
+  background: #fff;
+  color: #ff7a50;
+  border: 2px solid #ff7a50;
+}
